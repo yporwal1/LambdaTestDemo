@@ -6,7 +6,7 @@ Integration with LambdaTest
 >   #### Try in Gitpod
 >   Select the button below to try this demo in [Gitpod](https://www.gitpod.io/)
 >
->  [![Open in Gitpod](open-in-gitpod.png)](https://github.com/yporwal1/LambdaTestDemo)
+>  [![Open in Gitpod](open-in-gitpod.png)](gitpod.io/#https://github.com/yporwal1/LambdaTestDemo)
 >
 >   After the gitpod session launches, navigate to the terminal and run the following commands to save your [LambdaTest Credentials](https://accounts.lambdatest.com/detail/profile) to gitpod as environment variables:
 >   ```
