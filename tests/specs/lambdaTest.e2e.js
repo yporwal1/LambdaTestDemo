@@ -19,7 +19,6 @@ describe('LambdaTest Automation Demo', () => {
 
         //populating email and asseting alert message
         DemoFormPage.populateEmailAlert(registeredEmail);
-        browser.pause(2000);
         expect(browser.getAlertText()).toEqual(registeredEmail);
         browser.acceptAlert();
 

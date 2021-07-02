@@ -24,8 +24,9 @@ exports.config = {
   capabilities: [
     {
       browserName: "chrome",
-      browserVersion: "latest",
-      platformName:"MacOS Catalina",
+      browserVersion: "91.0",
+      platformName:"Windows 10",
+      unhandledPromptBehavior:"ignore",
       build: "LambdaTestDemo",
       console: true,
       network: true,
@@ -34,8 +35,9 @@ exports.config = {
     },
     {
       browserName: "Firefox",
-      browserVersion: "latest",
-      platformName:"MacOS Catalina",
+      browserVersion: "89.0",
+      platformName:"Windows 10",
+      unhandledPromptBehavior:"ignore",
       build: "LambdaTestDemo",
       console: true,
       network: true,
