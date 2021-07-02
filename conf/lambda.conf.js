@@ -16,8 +16,8 @@ exports.config = {
       }
     ]
   ],
-  user: 'yogendrabinmile',
-  key: 'yBEQc6HUFnciunDo8LoeHMKUDi5Gq7TczhjFsNAIZYxqh2sihq',
+  user: process.env.LT_USERNAME,
+  key: process.env.LT_ACCESS_KEY,
   specs: ['./tests/specs/**/*.js'],
   exclude: [],
 
